@@ -3,7 +3,7 @@ library(demography)
 library(forecast)
 
 #Reading the data
-fra<-hmd.mx("ESP", username = "gustavo.brusse@gmail.com", password = "1560256457", label = "Spain")
+fra<-hmd.mx("ESP", username = , password = , label = "Spain")
 
 #Smoothing the mortality data
 smus <- smooth.demogdata(fra)
